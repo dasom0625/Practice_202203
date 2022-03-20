@@ -1,0 +1,54 @@
+package dasom_202203;
+
+public class mar_20 {
+
+	//메소드
+		
+		
+		double sum (double a, double b) {
+			return a+b;
+		}
+
+		double muti(double a, double b) {
+			return a*b;
+		}
+		
+		double minus(double a, double b) {
+			return a-b;
+		}
+		
+		double division(double a, double b) {
+			return Math.round (a/b*100)/100.0;
+		}
+		
+		double remain(double a, double b) {
+			return a%b;
+		}
+	}
+
+
+
+
+
+//////////////////////////////////////////
+
+package dasom_202203;
+
+public class mar_20_cat {
+
+	public static void main(String[] args) {
+
+		mar_20 sol = new mar_20();
+		
+		System.out.println(sol.sum(7, 3));
+		
+		System.out.println(sol.muti(7, 3));
+		
+		System.out.println(sol.minus(7, 3));
+		
+		System.out.println(sol.division(7, 3));
+		
+		System.out.println(sol.remain(7, 3));
+		
+	}
+}
