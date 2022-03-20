@@ -51,7 +51,7 @@ public class mathod_return {
 
 package dasom_202203;
 
-public class mathod_retrunt2 {
+public class mathod_return2 {
 
 	public static String member(String text, int a) {
 
