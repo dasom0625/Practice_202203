@@ -15,8 +15,35 @@ public class mar_20_Mathod {
 	}
 }
 
+--------------------------------------------------------------------------------------------------
+=>출력 값 : 
+dasom
+*****
+kate
+!!!!!!
+==================================================================================================
 
-=>출력 값 : dasom
-            *****
-            kate
-            !!!!!!
+package dasom_202203;
+
+public class mathod_return {
+	
+	public static String a() {
+		return "dasom";
+	}
+
+	public static int one() {
+		return 31;
+	}
+
+
+	public static void main(String[] args) {
+		System.out.println("이름 : " + a());
+		System.out.println("나이 : " + one());
+	}
+}
+
+------------------------------------------------------------------------------------------------------
+=> 출력값 : 
+이름 : dasom
+나이 : 31
+
