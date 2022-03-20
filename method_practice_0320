@@ -1,0 +1,22 @@
+package dasom_202203;
+
+public class mar_20_Mathod {
+	
+	public static void method1(String text, String line){
+		//출력할 방법 //설계도
+		System.out.println(text);
+		System.out.println(line);
+	}
+	
+	public static void main(String[] args) {
+		//출력하고싶은 내용//호출하는 곳.
+		method1("dasom","*****");
+		method1("kate","!!!!!!");
+	}
+}
+
+
+=>출력 값 : dasom
+            *****
+            kate
+            !!!!!!
